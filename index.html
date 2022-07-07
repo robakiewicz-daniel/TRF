@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Robakiewicz">
+    <meta name="description" content="Lorem ipsum">
+    <meta name="keywords" content="TRF group">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>TRF group</title>
+    <style>
+        .home{color:#FD6262;}
+    </style>
+</head>
+<body>
+    <header>    
+        <nav>   
+            <div class="logo">
+                TRF GROUP LOGO
+            </div>
+            <div class="nav">   
+                <a class="home">
+                    Home
+                </a>
+                <a class="logo" href="logo.html">
+                    Logo
+                </a>
+                <a class="vision" href="vision.html">
+                    Vision
+                </a>
+                <a class="start">     
+                    Get Started
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="first">   
+        <h1>TRF GROUP</h1>
+        <div class="arrow"></div>
+    </div>
+
+    <div id="second">
+    <section id="columns">
+        <div id="left">
+            <h1>Wizja</h1>
+            <p>Wizją marki TRF Group jest profesjonalizacja segmentów rynku w branży IT, Public Relation, Marketingu oraz produkcji contentu.</p>
+        </div>
+        <div id="right">
+            <div id="up">
+                <div id="logo">logo</div>
+                <hr></hr>
+                <p>Nowoczesne podejście</p>
+            </div>
+            <div id="centerup">
+                <div id="logo">logo</div>
+                <hr></hr>
+                <p>Efektywne Struktury</p>
+            </div>
+            <div id="centerdown">
+                <div id="logo">logo</div>
+                <hr></hr>
+                <p>Dywersyfikacja</p>
+            </div>
+            <div id="down">
+                <div id="logo">logo</div>
+                <hr></hr>
+                <p>Test</p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div id="third">
+        <section>
+            <h1>Zarząd</h1>
+            <div id="persons">
+                <div id="Igor"><p>Igor Opłatkowski</p>
+                    <p id="role">Prokurent<br>COO</p></div>
+                <div id="Sebastian"><p>Sebastian Bogdan</p>
+                    <p id="role">Prokurent zarządu<br>CEO</p></div>
+            </div>
+        </section>
+    </div>
+
+    <div id="fourth">
+        <h1> TRF Group w liczbach</h1>
+        <div id="grid">
+            <div>
+                <p id="num">15</p> 
+                <p id="desc">Years of Experience</p>
+                <hr>
+            </div>
+            <div>
+                <p id="num">10K</p>
+                <p id="desc">Business Partners</p>
+                <hr>
+            </div>
+            <div>
+                <p id="num">25M</p>
+                <p id="desc">Products Installed</p>
+                <hr>
+            </div>
+            <div>
+                <p id="num">22</p>
+                <p id="desc">Countries Wolrd Wide</p>
+                <hr>
+            </div>
+            <div>
+                <p id="num">5</p>
+                <p id="desc">Industry Awards</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div id="image4">
+    </div>
+    <div id="grid2">
+        <div id="gridout">
+        <div id="gridin" class="white">Nasze Marki</div>
+        <div id="gridin">RAPAF</div>
+        <div id="gridin">BDXM</div>
+        <div id="gridin">REVOLTA</div>
+        <div id="gridin">TRF Group</div>
+    </div>
+    </div>
+
+    <div id="fifth">   
+        <section id="columns2">
+            <div id="left2">
+                <h1>Przykładowy<br>
+                Tekst</h1>
+            </div>
+            <div id="right2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, perspiciatis? Quae, numquam, reiciendis accusamus, quam atque cupiditate ullam debitis eum enim officiis nam. Consectetur inventore laudantium facilis eos non veniam!</p>
+                <p id="button">Get Started</p>
+            </div>
+    </div>
+
+    <footer>
+        <div id="firstfoot"><h1>
+            KONTAKT
+        </h1>
+        <p>PRACUJ Z NAMI</p>
+        </div>
+        <div id="gridfoot">
+            <div>TRF Group sp.z.o.o<br>Adres</div>
+            <div>NIP<br>REGON</div>
+            <div>kontakt@trfgroup.pl<br>798 870 900</div>
+        </div>
+    </footer>
+    <script type="text/javascript">    
+    const bg1 = document.getElementById('first');
+    window.addEventListener('scroll', function(){
+        bg1.style.backgroundSize = 100 + +window.pageYOffset/20+'%';
+    })
+    </script>
+    <script src="wspolne.js"></script>
+</body>
+</html>
